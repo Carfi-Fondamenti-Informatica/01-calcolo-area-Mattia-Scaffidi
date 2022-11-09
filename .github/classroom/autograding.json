@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Calcolo Area",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "4.2\r\n3.1\r\n10.23",
+      "output": "6.51\r\n17.64\r\n13.02\r\n37.3395",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 100
+    }
+  ]
+}
